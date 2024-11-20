@@ -1,0 +1,98 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: myfont;
+  src: url(mokoto.ttf);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navbar */
+.navbar {
+  padding: 15px 50px;
+  background-color: transparent !important;
+  border: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  color: #e25b5b;
+  margin-top: 3vh;
+  margin-right: 4vh;
+  margin-bottom: -20vh;
+}
+
+.navbar img {
+  width: 70px;
+  height: 70px;
+}
+
+#imperianova {
+  font-family: myfont;
+  margin-left: -2vh;
+  font-size: 20px;
+  color: black;
+}
+
+.navbar .nav-link {
+  color: #3d2626;
+}
+.navbar a {
+  padding-right: 4vh;
+}
+#navigation {
+  position: static;
+  gap: 3rem;
+  color: white;
+}
+
+#navigation li a {
+  position: relative;
+}
+
+.auth-buttons .btn-primary {
+  background-color: #ffffff;
+  color: #1e5b53;
+  border: none;
+}
+
+.hero2 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Ensures phone images can extend past hero section */
+  position: relative;
+  z-index: 1;
+}
+
+.TITLESLOGAN2 {
+  margin-top: 15vh;
+  width: 1000px;
+  text-align: center;
+}
+#title2 {
+  color: black;
+  font-size: 10vh;
+  font-weight: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.phone-image1 {
+  width: 100vh;
+}
+
+.desc3 {
+  color: black;
+  font-size: 3vh;
+  margin-right: 30vh;
+  margin-left: 30vh;
+  text-align: justify;
+}
+.navbar-dark .navbar-toggler-icon {
+  filter: invert(100%); /* Changes the color of the lines */
+}
